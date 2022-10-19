@@ -10,7 +10,7 @@ padding: 15px;
 font-family: 'Inter', sans-serif;
 
 }
-
+/* tag div class page-wrapper*/
 .page-wrapper{
   overflow: hidden;
   max-width: 375px;/*Максимальная ширина div page-wrapper*/
@@ -20,7 +20,7 @@ font-family: 'Inter', sans-serif;
   border-radius: 10px;/*скругления краев*/
   
 }
-
+/* tag header class header*/
 .header{
   color: #ffff;
   padding: 19px 46px 156px 20px;
@@ -28,19 +28,19 @@ font-family: 'Inter', sans-serif;
   background: linear-gradient(0deg, rgba(38, 36, 36, 0.5), rgba(38, 36, 36, 0.5)), url('../img/header-bg.png') no-repeat center /cover;
   border-radius: 0px 0px 90px 90px;
 }
-
+/* tag span class hello*/
 .hello{
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
 }
-
+/* tag p class hello-text*/
 .hello-text{
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
 }
-
+/* tag div class user*/
 .user{
   margin-top: -32%;
   text-align: center;
@@ -49,14 +49,14 @@ font-family: 'Inter', sans-serif;
   border-radius: 10px;
   padding-bottom: 5px;
 }
-
+/* tag img class user-avatar*/
 .user-avatar{
   margin-top: -54px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #FFFDFD;
 }
-
+/* tag h1 class user-name*/
 .user-name{
   margin-top: 11px;
   margin-bottom: 5px;
@@ -66,7 +66,7 @@ font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 19px;
 }
-
+/* tag p class user-description*/
 .user-description{
   font-family: 'Roboto';
   font-style: normal;
@@ -75,9 +75,63 @@ font-family: 'Inter', sans-serif;
   line-height: 12px;
   color: #737373;
 }
-
+/*tag div class container*/
 .container{
   max-width: 300px;
   margin: auto;
 
+}
+/*tag div class card*/
+.card{
+  background: #FFFCFC;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 20px;
+}
+/*tag div class buttons*/
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  width: 263px;
+  margin: auto;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+/*tag a class button*/
+.button{
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:30px;
+  flex-shrink: 1;
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  gap:10px;
+}
+/*Цвет кнопок*/
+.vk{
+  background-color: #0077FF;
+  
+}
+
+.tel{
+  background-color: #0077FF;
+}
+
+.you{
+  background-color: #ED1D24;
+  
+}
+
+.hh{
+  background-color: #d6001c;
 }
