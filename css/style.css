@@ -1,3 +1,41 @@
 *{
   box-sizing: border-box;
 }
+
+body{
+background-color: #F2F1F1;/*Фоновый цвет!*/
+
+padding: 15px;
+
+font-family: 'Inter', sans-serif;
+
+}
+
+.page-wrapper{
+  max-width: 375px;/*Максимальная ширина div page-wrapper*/
+  margin:auto;
+  background: #F2F1F1;
+  box-shadow: 0px 0px 30px rgba(169, 168, 168, 0.25);/*Тень*/
+  border-radius: 10px;/*скругления краев*/
+  
+}
+
+.header{
+  color: #ffff;
+  padding: 19px 46px 156px 20px;
+
+  background: linear-gradient(0deg, rgba(38, 36, 36, 0.5), rgba(38, 36, 36, 0.5)), url('../img/header-bg.png') no-repeat center /cover;
+  border-radius: 0px 0px 90px 90px;
+}
+
+.hello{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hello-text{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
